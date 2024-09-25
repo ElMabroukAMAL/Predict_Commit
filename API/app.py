@@ -30,7 +30,7 @@ X_train, X_test, y_train_class, y_test_class = train_test_split(X, y_classificat
 #_, _, y_train_reg, y_test_reg = train_test_split(X, y_regression, test_size=0.2, random_state=42)
 
 # Charger les modèles
-classification_pipeline = joblib.load('Regression_logistique.pkl')
+classification_pipeline = joblib.load('API/Regression_logistique.pkl')
 
 # preprocessor = joblib.load('preprocessor.pkl')
 # def create_model():

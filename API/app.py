@@ -13,7 +13,7 @@ import json
 #app = Flask(__name__)
 
 # Charger les données d'entraînement
-data = pd.read_csv('data.csv')
+data = pd.read_csv('API/data.csv')
 data['functions'] = data['functions'].fillna('aucune fonction n\'est modifiée')
 
 # Sélection des features et de la cible
